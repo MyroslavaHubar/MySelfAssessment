@@ -75,13 +75,13 @@
 | `undefined` | 🤷 unknown | ⟶  | 🖐️ used |
 | `null` | 🤷 unknown | ⟶  | 🖐️ used |
 | `this` | 🤷 unknown | ⟶  | 🖐️ used |
-| `instanceof` | 🎓 known | ⟶  | 🖐️ used |
+| `instanceof` | 👂 heard | ⟶  | 🖐️ used |
 | `...spread` | 🤷 unknown | ⟶  | 🖐️ used |
 | `...rest` | 🤷 unknown | ⟶  | 🖐️ used |
 | `typeof` | 🤷 unknown | ⟶  | 🖐️ used |
 | Destructuring | 🤷 unknown | ⟶  | 🖐️ used |
 | Chaining | 🤷 unknown | ⟶  | 👂 heard |
-| Optional chaining | 🤷 unknown | ⟶  | 👂 heard |
+| `global` | 👂 heard | ⟶  | 🎓 known |
 | Getters and setters | 🤷 unknown | ⟶  | 👂 heard |
 | `prototype` | 🤷 unknown | ⟶  | 👂 heard |
 | Equality operators | 🤷 unknown | ⟶  | 🖐️ used |
@@ -90,7 +90,7 @@
 | `await` | 🤷 unknown | ⟶  | 👂 heard |
 | Template literal | 🤷 unknown | ⟶  | 🖐️ used |
 | Strict mode | 🤷 unknown | ⟶  | 🖐️ used |
-| `super` | 🤷 unknown | ⟶  | 🖐️ used |
+| `super` | 👂 heard | ⟶  | 🖐️ used |
 | Private class fields | 🤷 unknown | ⟶  | 🎓 known |
 | Private class methods | 🤷 unknown | ⟶  | 🎓 known |
 | `if` | 🤷 unknown | ⟶  | 🖐️ used |
@@ -117,15 +117,17 @@
 | `return` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Array` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Map` | 🤷 unknown | ⟶  | 🖐️ used |
-| `Set` | 🎓 known | ⟶  | 🖐️ used |
+| `Set` | 👂 heard | ⟶  | 🖐️ used |
+| Mixins | 👂 heard | ⟶  | 🎓 known |
 | `Object.assign` | 🤷 unknown | ⟶  | 🎓 known |
+| `Proxy` | 👂 heard | ⟶  | 🎓 known |
 | `Error` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Promise` | 🤷 unknown | ⟶  | 👂 heard |
 | `console` | 🤷 unknown | ⟶  | 🖐️ used |
 | Timers | 🤷 unknown | ⟶  | 🖐️ used |
 | prettier | 🤷 unknown | ⟶  | 🎓 known |
 
-Total: you have `15` of `72` skills, `57` to be upgraded, and `11` above needed
+Total: you have `13` of `72` skills, `59` to be upgraded, and `0` above needed
 
 | To start Node.js | actual | ⟶  | required |
 | --- | --- | --- | --- |
@@ -141,36 +143,42 @@ Total: you have `15` of `72` skills, `57` to be upgraded, and `11` above needed
 | `undefined` | 🤷 unknown | ⟶  | 🖐️ used |
 | `null` | 🤷 unknown | ⟶  | 🖐️ used |
 | `this` | 🤷 unknown | ⟶  | 🖐️ used |
-| `instanceof` | 🎓 known | ⟶  | 🖐️ used |
+| `instanceof` | 👂 heard | ⟶  | 🖐️ used |
 | `...spread` | 🤷 unknown | ⟶  | 🖐️ used |
 | `...rest` | 🤷 unknown | ⟶  | 🖐️ used |
 | `typeof` | 🤷 unknown | ⟶  | 🖐️ used |
 | Destructuring | 🤷 unknown | ⟶  | 🖐️ used |
-| Generators | 🎓 known | ⟶  | 🖐️ used |
-| Iterators | 🎓 known | ⟶  | 🖐️ used |
-| Async generator | 🎓 known | ⟶  | 🖐️ used |
-| Async iterator | 🎓 known | ⟶  | 🖐️ used |
+| Generators | 👂 heard | ⟶  | 🖐️ used |
+| Iterators | 👂 heard | ⟶  | 🖐️ used |
+| Async generator | 👂 heard | ⟶  | 🖐️ used |
+| Async iterator | 👂 heard | ⟶  | 🖐️ used |
 | Chaining | 🤷 unknown | ⟶  | 🖐️ used |
-| IIFE | 🎓 known | ⟶  | 🖐️ used |
-| Async IIFE | 🎓 known | ⟶  | 🖐️ used |
-| `global` | 🎓 known | ⟶  | 🖐️ used |
-| `globalThis` | 🎓 known | ⟶  | 🖐️ used |
+| IIFE | 👂 heard | ⟶  | 🖐️ used |
+| Async IIFE | 👂 heard | ⟶  | 🖐️ used |
+| `global` | 👂 heard | ⟶  | 🖐️ used |
+| `globalThis` | 👂 heard | ⟶  | 🖐️ used |
 | Getters and setters | 🤷 unknown | ⟶  | 🖐️ used |
 | Equality operators | 🤷 unknown | ⟶  | 🖐️ used |
 | Logical operators | 🤷 unknown | ⟶  | 🖐️ used |
 | Ternary operator | 🤷 unknown | ⟶  | 🖐️ used |
-| `void` | 🎓 known | ⟶  | 🖐️ used |
+| `void` | 👂 heard | ⟶  | 🖐️ used |
 | `yield` | 👂 heard | ⟶  | 🖐️ used |
 | `await` | 🤷 unknown | ⟶  | 🖐️ used |
 | Template literal | 🤷 unknown | ⟶  | 🖐️ used |
 | Strict mode | 🤷 unknown | ⟶  | 🖐️ used |
 | `delete` | 🤷 unknown | ⟶  | 🖐️ used |
 | `in` | 🤷 unknown | ⟶  | 👂 heard |
-| `super` | 🤷 unknown | ⟶  | 🖐️ used |
-| `static` | 🎓 known | ⟶  | 🖐️ used |
+| `super` | 👂 heard | ⟶  | 🖐️ used |
+| `eval` | 👂 heard | ⟶  | 🎓 known |
+| `static` | 👂 heard | ⟶  | 🖐️ used |
 | `Number.parseInt` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Number.parseFloat` | 🤷 unknown | ⟶  | 🖐️ used |
+| Property descriptors | 👂 heard | ⟶  | 🎓 known |
+| Sealing properties | 👂 heard | ⟶  | 🎓 known |
+| Freezing properties | 👂 heard | ⟶  | 🎓 known |
+| Computed properties | 👂 heard | ⟶  | 🎓 known |
 | Instance class fields | 🤷 unknown | ⟶  | 🎓 known |
+| Static class fields | 👂 heard | ⟶  | 🎓 known |
 | Private class fields | 🤷 unknown | ⟶  | 🎓 known |
 | Private class methods | 🤷 unknown | ⟶  | 🎓 known |
 | `if` | 🤷 unknown | ⟶  | 🖐️ used |
@@ -198,22 +206,27 @@ Total: you have `15` of `72` skills, `57` to be upgraded, and `11` above needed
 | `return` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Array` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Map` | 🤷 unknown | ⟶  | 🖐️ used |
-| `Set` | 🎓 known | ⟶  | 🖐️ used |
+| `Set` | 👂 heard | ⟶  | 🖐️ used |
+| `WeakMap` | 👂 heard | ⟶  | 🎓 known |
+| `WeakSet` | 👂 heard | ⟶  | 🎓 known |
 | Typed arrays | 🤷 unknown | ⟶  | 🎓 known |
 | `Object.assign` | 🤷 unknown | ⟶  | 🎓 known |
+| `Proxy` | 👂 heard | ⟶  | 🎓 known |
+| `RegExp` | 👂 heard | ⟶  | 🎓 known |
 | `Date` | 🤷 unknown | ⟶  | 🎓 known |
 | `Math` | 🤷 unknown | ⟶  | 🎓 known |
+| `Reflect` | 👂 heard | ⟶  | 🎓 known |
 | `Error` | 🤷 unknown | ⟶  | 🖐️ used |
 | `JSON` | 🤷 unknown | ⟶  | 🖐️ used |
 | `Promise` | 🤷 unknown | ⟶  | 🖐️ used |
 | `console` | 🤷 unknown | ⟶  | 🖐️ used |
 | Timers | 🤷 unknown | ⟶  | 🖐️ used |
-| V8 | 🎓 known | ⟶  | 🖐️ used |
+| V8 | 👂 heard | ⟶  | 🖐️ used |
 | Node.js | 🤷 unknown | ⟶  | 👂 heard |
 | npm | 🤷 unknown | ⟶  | 🎓 known |
 | prettier | 🤷 unknown | ⟶  | 🎓 known |
 
-Total: you have `15` of `98` skills, `83` to be upgraded, and `4` above needed
+Total: you have `4` of `98` skills, `94` to be upgraded, and `0` above needed
 
 ## [Async](/Skills/Async.md)
 
